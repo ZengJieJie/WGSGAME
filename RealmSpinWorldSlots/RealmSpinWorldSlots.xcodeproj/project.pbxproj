@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370C0B4E5B399A01C606A957 /* Pods_RealmSpinWorldSlots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B03426754EBED74A57C8F45 /* Pods_RealmSpinWorldSlots.framework */; };
+		C662B4CD2C889ABA001C5DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4CC2C889ABA001C5DF5 /* AppDelegate.m */; };
+		C662B4D32C889ABA001C5DF5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4D22C889ABA001C5DF5 /* HomeViewController.m */; };
+		C662B4D62C889ABA001C5DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B4D42C889ABA001C5DF5 /* Main.storyboard */; };
+		C662B4D82C889ABD001C5DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C662B4D72C889ABD001C5DF5 /* Assets.xcassets */; };
+		C662B4DB2C889ABD001C5DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B4D92C889ABD001C5DF5 /* LaunchScreen.storyboard */; };
+		C662B4DE2C889ABD001C5DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4DD2C889ABD001C5DF5 /* main.m */; };
+		C662B4E82C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4E72C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.m */; };
+		C662B4F22C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4F12C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.m */; };
+		C662B4F42C889ABE001C5DF5 /* RealmSpinWorldSlotsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B4F32C889ABE001C5DF5 /* RealmSpinWorldSlotsUITestsLaunchTests.m */; };
+		C662B5052C889C00001C5DF5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B5042C889C00001C5DF5 /* Extension.swift */; };
+		C662B5072C889C38001C5DF5 /* RealmSoltViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B5062C889C38001C5DF5 /* RealmSoltViewController.swift */; };
+		C662B5092C889C4B001C5DF5 /* RealmSetTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B5082C889C4B001C5DF5 /* RealmSetTimeViewController.swift */; };
+		C662B50B2C889C60001C5DF5 /* RealmMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B50A2C889C60001C5DF5 /* RealmMemoryViewController.swift */; };
+		C662B50D2C889C75001C5DF5 /* RealmPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B50C2C889C75001C5DF5 /* RealmPrivacyViewController.swift */; };
+		C662B50F2C889C88001C5DF5 /* RealmfeedbkackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B50E2C889C88001C5DF5 /* RealmfeedbkackViewController.swift */; };
+		C662B5112C889C96001C5DF5 /* RealmAtusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B5102C889C96001C5DF5 /* RealmAtusViewController.swift */; };
+		C662B5132C889CA3001C5DF5 /* RealmSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B5122C889CA3001C5DF5 /* RealmSettingViewController.swift */; };
+		C662B5152C889D91001C5DF5 /* RealmFeedBackExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B5142C889D91001C5DF5 /* RealmFeedBackExtViewController.swift */; };
+		C662B5172C889E97001C5DF5 /* RealmSelectGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B5162C889E97001C5DF5 /* RealmSelectGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C662B4E42C889ABE001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B4C02C889ABA001C5DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C662B4C72C889ABA001C5DF5;
+			remoteInfo = RealmSpinWorldSlots;
+		};
+		C662B4EE2C889ABE001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B4C02C889ABA001C5DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C662B4C72C889ABA001C5DF5;
+			remoteInfo = RealmSpinWorldSlots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B03426754EBED74A57C8F45 /* Pods_RealmSpinWorldSlots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmSpinWorldSlots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9873FAD5C8D6D59BF0C01A /* Pods-RealmSpinWorldSlots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSpinWorldSlots.release.xcconfig"; path = "Target Support Files/Pods-RealmSpinWorldSlots/Pods-RealmSpinWorldSlots.release.xcconfig"; sourceTree = "<group>"; };
+		7E9D03F736D0B43287204295 /* Pods-RealmSpinWorldSlots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSpinWorldSlots.debug.xcconfig"; path = "Target Support Files/Pods-RealmSpinWorldSlots/Pods-RealmSpinWorldSlots.debug.xcconfig"; sourceTree = "<group>"; };
+		C662B4C82C889ABA001C5DF5 /* RealmSpinWorldSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmSpinWorldSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B4CB2C889ABA001C5DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C662B4CC2C889ABA001C5DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C662B4D12C889ABA001C5DF5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C662B4D22C889ABA001C5DF5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C662B4D52C889ABA001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C662B4D72C889ABD001C5DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C662B4DA2C889ABD001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C662B4DC2C889ABD001C5DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C662B4DD2C889ABD001C5DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C662B4E32C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmSpinWorldSlotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B4E72C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmSpinWorldSlotsTests.m; sourceTree = "<group>"; };
+		C662B4ED2C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmSpinWorldSlotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B4F12C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmSpinWorldSlotsUITests.m; sourceTree = "<group>"; };
+		C662B4F32C889ABE001C5DF5 /* RealmSpinWorldSlotsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmSpinWorldSlotsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C662B5032C889BFF001C5DF5 /* RealmSpinWorldSlots-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealmSpinWorldSlots-Bridging-Header.h"; sourceTree = "<group>"; };
+		C662B5042C889C00001C5DF5 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C662B5062C889C38001C5DF5 /* RealmSoltViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSoltViewController.swift; sourceTree = "<group>"; };
+		C662B5082C889C4B001C5DF5 /* RealmSetTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSetTimeViewController.swift; sourceTree = "<group>"; };
+		C662B50A2C889C60001C5DF5 /* RealmMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMemoryViewController.swift; sourceTree = "<group>"; };
+		C662B50C2C889C75001C5DF5 /* RealmPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPrivacyViewController.swift; sourceTree = "<group>"; };
+		C662B50E2C889C88001C5DF5 /* RealmfeedbkackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmfeedbkackViewController.swift; sourceTree = "<group>"; };
+		C662B5102C889C96001C5DF5 /* RealmAtusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAtusViewController.swift; sourceTree = "<group>"; };
+		C662B5122C889CA3001C5DF5 /* RealmSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSettingViewController.swift; sourceTree = "<group>"; };
+		C662B5142C889D91001C5DF5 /* RealmFeedBackExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFeedBackExtViewController.swift; sourceTree = "<group>"; };
+		C662B5162C889E97001C5DF5 /* RealmSelectGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSelectGameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C662B4C52C889ABA001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370C0B4E5B399A01C606A957 /* Pods_RealmSpinWorldSlots.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B4E02C889ABE001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B4EA2C889ABE001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67EBC44A2A59525F7D232AA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E9D03F736D0B43287204295 /* Pods-RealmSpinWorldSlots.debug.xcconfig */,
+				6E9873FAD5C8D6D59BF0C01A /* Pods-RealmSpinWorldSlots.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B37DEDB05D695876792A21B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B03426754EBED74A57C8F45 /* Pods_RealmSpinWorldSlots.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C662B4BF2C889ABA001C5DF5 = {
+			isa = PBXGroup;
+			children = (
+				C662B4CA2C889ABA001C5DF5 /* RealmSpinWorldSlots */,
+				C662B4E62C889ABE001C5DF5 /* RealmSpinWorldSlotsTests */,
+				C662B4F02C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests */,
+				C662B4C92C889ABA001C5DF5 /* Products */,
+				67EBC44A2A59525F7D232AA0 /* Pods */,
+				B37DEDB05D695876792A21B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C662B4C92C889ABA001C5DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C662B4C82C889ABA001C5DF5 /* RealmSpinWorldSlots.app */,
+				C662B4E32C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.xctest */,
+				C662B4ED2C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C662B4CA2C889ABA001C5DF5 /* RealmSpinWorldSlots */ = {
+			isa = PBXGroup;
+			children = (
+				C662B5042C889C00001C5DF5 /* Extension.swift */,
+				C662B4CB2C889ABA001C5DF5 /* AppDelegate.h */,
+				C662B4CC2C889ABA001C5DF5 /* AppDelegate.m */,
+				C662B4D12C889ABA001C5DF5 /* HomeViewController.h */,
+				C662B4D22C889ABA001C5DF5 /* HomeViewController.m */,
+				C662B4D42C889ABA001C5DF5 /* Main.storyboard */,
+				C662B4D72C889ABD001C5DF5 /* Assets.xcassets */,
+				C662B4D92C889ABD001C5DF5 /* LaunchScreen.storyboard */,
+				C662B4DC2C889ABD001C5DF5 /* Info.plist */,
+				C662B4DD2C889ABD001C5DF5 /* main.m */,
+				C662B5032C889BFF001C5DF5 /* RealmSpinWorldSlots-Bridging-Header.h */,
+				C662B5062C889C38001C5DF5 /* RealmSoltViewController.swift */,
+				C662B5082C889C4B001C5DF5 /* RealmSetTimeViewController.swift */,
+				C662B50A2C889C60001C5DF5 /* RealmMemoryViewController.swift */,
+				C662B50C2C889C75001C5DF5 /* RealmPrivacyViewController.swift */,
+				C662B50E2C889C88001C5DF5 /* RealmfeedbkackViewController.swift */,
+				C662B5102C889C96001C5DF5 /* RealmAtusViewController.swift */,
+				C662B5122C889CA3001C5DF5 /* RealmSettingViewController.swift */,
+				C662B5142C889D91001C5DF5 /* RealmFeedBackExtViewController.swift */,
+				C662B5162C889E97001C5DF5 /* RealmSelectGameViewController.swift */,
+			);
+			path = RealmSpinWorldSlots;
+			sourceTree = "<group>";
+		};
+		C662B4E62C889ABE001C5DF5 /* RealmSpinWorldSlotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C662B4E72C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.m */,
+			);
+			path = RealmSpinWorldSlotsTests;
+			sourceTree = "<group>";
+		};
+		C662B4F02C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C662B4F12C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.m */,
+				C662B4F32C889ABE001C5DF5 /* RealmSpinWorldSlotsUITestsLaunchTests.m */,
+			);
+			path = RealmSpinWorldSlotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C662B4C72C889ABA001C5DF5 /* RealmSpinWorldSlots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B4F72C889ABE001C5DF5 /* Build configuration list for PBXNativeTarget "RealmSpinWorldSlots" */;
+			buildPhases = (
+				52D97F2A213BC07E481A2DAF /* [CP] Check Pods Manifest.lock */,
+				C662B4C42C889ABA001C5DF5 /* Sources */,
+				C662B4C52C889ABA001C5DF5 /* Frameworks */,
+				C662B4C62C889ABA001C5DF5 /* Resources */,
+				0849D262C064CCEAD40ECF36 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmSpinWorldSlots;
+			productName = RealmSpinWorldSlots;
+			productReference = C662B4C82C889ABA001C5DF5 /* RealmSpinWorldSlots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C662B4E22C889ABE001C5DF5 /* RealmSpinWorldSlotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B4FA2C889ABE001C5DF5 /* Build configuration list for PBXNativeTarget "RealmSpinWorldSlotsTests" */;
+			buildPhases = (
+				C662B4DF2C889ABE001C5DF5 /* Sources */,
+				C662B4E02C889ABE001C5DF5 /* Frameworks */,
+				C662B4E12C889ABE001C5DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C662B4E52C889ABE001C5DF5 /* PBXTargetDependency */,
+			);
+			name = RealmSpinWorldSlotsTests;
+			productName = RealmSpinWorldSlotsTests;
+			productReference = C662B4E32C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C662B4EC2C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B4FD2C889ABE001C5DF5 /* Build configuration list for PBXNativeTarget "RealmSpinWorldSlotsUITests" */;
+			buildPhases = (
+				C662B4E92C889ABE001C5DF5 /* Sources */,
+				C662B4EA2C889ABE001C5DF5 /* Frameworks */,
+				C662B4EB2C889ABE001C5DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C662B4EF2C889ABE001C5DF5 /* PBXTargetDependency */,
+			);
+			name = RealmSpinWorldSlotsUITests;
+			productName = RealmSpinWorldSlotsUITests;
+			productReference = C662B4ED2C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C662B4C02C889ABA001C5DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C662B4C72C889ABA001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					C662B4E22C889ABE001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C662B4C72C889ABA001C5DF5;
+					};
+					C662B4EC2C889ABE001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C662B4C72C889ABA001C5DF5;
+					};
+				};
+			};
+			buildConfigurationList = C662B4C32C889ABA001C5DF5 /* Build configuration list for PBXProject "RealmSpinWorldSlots" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C662B4BF2C889ABA001C5DF5;
+			productRefGroup = C662B4C92C889ABA001C5DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C662B4C72C889ABA001C5DF5 /* RealmSpinWorldSlots */,
+				C662B4E22C889ABE001C5DF5 /* RealmSpinWorldSlotsTests */,
+				C662B4EC2C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C662B4C62C889ABA001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B4DB2C889ABD001C5DF5 /* LaunchScreen.storyboard in Resources */,
+				C662B4D82C889ABD001C5DF5 /* Assets.xcassets in Resources */,
+				C662B4D62C889ABA001C5DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B4E12C889ABE001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B4EB2C889ABE001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0849D262C064CCEAD40ECF36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmSpinWorldSlots/Pods-RealmSpinWorldSlots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmSpinWorldSlots/Pods-RealmSpinWorldSlots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmSpinWorldSlots/Pods-RealmSpinWorldSlots-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D97F2A213BC07E481A2DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmSpinWorldSlots-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C662B4C42C889ABA001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B5072C889C38001C5DF5 /* RealmSoltViewController.swift in Sources */,
+				C662B50B2C889C60001C5DF5 /* RealmMemoryViewController.swift in Sources */,
+				C662B50D2C889C75001C5DF5 /* RealmPrivacyViewController.swift in Sources */,
+				C662B5112C889C96001C5DF5 /* RealmAtusViewController.swift in Sources */,
+				C662B4D32C889ABA001C5DF5 /* HomeViewController.m in Sources */,
+				C662B5172C889E97001C5DF5 /* RealmSelectGameViewController.swift in Sources */,
+				C662B5152C889D91001C5DF5 /* RealmFeedBackExtViewController.swift in Sources */,
+				C662B5132C889CA3001C5DF5 /* RealmSettingViewController.swift in Sources */,
+				C662B4CD2C889ABA001C5DF5 /* AppDelegate.m in Sources */,
+				C662B4DE2C889ABD001C5DF5 /* main.m in Sources */,
+				C662B50F2C889C88001C5DF5 /* RealmfeedbkackViewController.swift in Sources */,
+				C662B5092C889C4B001C5DF5 /* RealmSetTimeViewController.swift in Sources */,
+				C662B5052C889C00001C5DF5 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B4DF2C889ABE001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B4E82C889ABE001C5DF5 /* RealmSpinWorldSlotsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B4E92C889ABE001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B4F22C889ABE001C5DF5 /* RealmSpinWorldSlotsUITests.m in Sources */,
+				C662B4F42C889ABE001C5DF5 /* RealmSpinWorldSlotsUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C662B4E52C889ABE001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C662B4C72C889ABA001C5DF5 /* RealmSpinWorldSlots */;
+			targetProxy = C662B4E42C889ABE001C5DF5 /* PBXContainerItemProxy */;
+		};
+		C662B4EF2C889ABE001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C662B4C72C889ABA001C5DF5 /* RealmSpinWorldSlots */;
+			targetProxy = C662B4EE2C889ABE001C5DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C662B4D42C889ABA001C5DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C662B4D52C889ABA001C5DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C662B4D92C889ABD001C5DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C662B4DA2C889ABD001C5DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C662B4F52C889ABE001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C662B4F62C889ABE001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C662B4F82C889ABE001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9D03F736D0B43287204295 /* Pods-RealmSpinWorldSlots.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealmSpinWorldSlots/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Realm Spin World Slots";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Realmhui.RealmSpinWorldSlots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RealmSpinWorldSlots/RealmSpinWorldSlots-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C662B4F92C889ABE001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9873FAD5C8D6D59BF0C01A /* Pods-RealmSpinWorldSlots.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealmSpinWorldSlots/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Realm Spin World Slots";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Realmhui.RealmSpinWorldSlots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RealmSpinWorldSlots/RealmSpinWorldSlots-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C662B4FB2C889ABE001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.RealmSpinWorldSlotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmSpinWorldSlots.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealmSpinWorldSlots";
+			};
+			name = Debug;
+		};
+		C662B4FC2C889ABE001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.RealmSpinWorldSlotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmSpinWorldSlots.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealmSpinWorldSlots";
+			};
+			name = Release;
+		};
+		C662B4FE2C889ABE001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.RealmSpinWorldSlotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealmSpinWorldSlots;
+			};
+			name = Debug;
+		};
+		C662B4FF2C889ABE001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlotSagaSlotSpins.RealmSpinWorldSlotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealmSpinWorldSlots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C662B4C32C889ABA001C5DF5 /* Build configuration list for PBXProject "RealmSpinWorldSlots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B4F52C889ABE001C5DF5 /* Debug */,
+				C662B4F62C889ABE001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B4F72C889ABE001C5DF5 /* Build configuration list for PBXNativeTarget "RealmSpinWorldSlots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B4F82C889ABE001C5DF5 /* Debug */,
+				C662B4F92C889ABE001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B4FA2C889ABE001C5DF5 /* Build configuration list for PBXNativeTarget "RealmSpinWorldSlotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B4FB2C889ABE001C5DF5 /* Debug */,
+				C662B4FC2C889ABE001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B4FD2C889ABE001C5DF5 /* Build configuration list for PBXNativeTarget "RealmSpinWorldSlotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B4FE2C889ABE001C5DF5 /* Debug */,
+				C662B4FF2C889ABE001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C662B4C02C889ABA001C5DF5 /* Project object */;
+}

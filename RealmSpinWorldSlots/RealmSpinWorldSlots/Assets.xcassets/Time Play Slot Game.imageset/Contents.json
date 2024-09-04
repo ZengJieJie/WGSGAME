@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "pienzkaa_The_numbers_123456789_in_the_center_of_which_is_a_holo_3.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_RealmSpinWorldSlots {
+  umbrella header "Pods-RealmSpinWorldSlots-umbrella.h"
+
+  export *
+  module * { export * }
+}
